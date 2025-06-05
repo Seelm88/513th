@@ -24,8 +24,15 @@
 
         /* Styling for the main header section */
         .main-header {
-            background-color: #f7f7f7; /* Dark forest green, thematic */
-            color: #060705; /* Bright frog green for text */
+            /* --- Background image styles added here --- */
+            background-image: url('https://imgur.com/a/2S4budV'); /* Replace with your actual image URL */
+            background-size: cover; /* Ensures the image covers the entire header area */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-color: #f7f7f7; /* Fallback background color if image fails to load */
+            /* --- End background image styles --- */
+
+            color: #ffffff; /* Changed to white for better visibility against a potentially dark background image */
             padding: 2.5rem 0; /* More vertical padding */
             text-align: center;
             border-bottom-left-radius: 15px; /* Rounded corners for the bottom */
