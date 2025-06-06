@@ -170,9 +170,22 @@
                 </div>
             </div>
         </main>
-            <div>
-                <iframe src="https://discord.com/widget?id=1196158088642822205&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                </div>
+        <!-- Two Discord iframe sections side-by-side -->
+        <div class="flex flex-col md:flex-row justify-center items-start gap-8 mb-12">
+            <!-- Left Discord Box -->
+            <div class="white-background-section p-8 rounded-xl shadow-lg text-center w-full md:w-1/2 max-w-lg">
+                <h1 class="text-black text-3xl font-bold mb-6">513th Frog Battalion</h1>
+                <!-- Changed iframe width to 100% to be responsive within its container -->
+                <iframe class="w-full" src="https://discord.com/widget?id=1196158088642822205&theme=dark" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+
+            <!-- Right Discord Box (duplicate) -->
+            <div class="white-background-section p-8 rounded-xl shadow-lg text-center w-full md:w-1/2 max-w-lg">
+                <h1 class="text-black text-3xl font-bold mb-6">F13 Norrköping (Milsim)</h1>
+                <!-- Changed iframe width to 100% to be responsive within its container -->
+                <iframe class="w-full" src="https://discord.com/widget?id=1196158088642822205&theme=dark" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
         <!-- Footer Section -->
         <footer class="main-footer rounded-xl">
             <p>&copy; 2025 513th Frog Battalion. All rights reserved.</p>
